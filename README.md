@@ -23,5 +23,17 @@ Avant de commencer, assurez-vous d'avoir configuré Firebase pour votre projet. 
 
 ## Installation
 
-1. Clonez ce référentiel sur votre machine :
+#!/bin/bash
+
+# Cloner le référentiel
+git clone https://github.com/Justclemax/ChatApp.git
+
+# Accéder au répertoire du projet
+cd chatApp
+
+# Installer les dépendances
+flutter pub get
+
+# Exécuter l'application
+flutter run
 
